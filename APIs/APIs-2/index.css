@@ -1,0 +1,45 @@
+#input-post {
+    height: 5em;
+    width: 20em;
+}
+
+.imggatinho {
+    height:8rem;
+
+}
+.txtpost{
+    font-family: 'Times New Roman', Times, serif;
+}
+.divuser{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.avatar{
+    height:2rem;
+}
+.username{
+    margin-left: 0.5em;
+    font-weight: bold;
+
+}
+li{
+    margin-bottom:1em;
+    padding:1em;
+    width: 50%;
+    background-color: #00bfff33;
+
+}
+ul{
+    list-style:none;
+}
+.divcurtida {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li button {
+    height:2em;
+    margin-right: 0.5em;
+}
