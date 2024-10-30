@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <style>
+            li.feito .task-desc {
+        text-decoration: line-through;
+        }
+
+        li:not(.feito) .task-desc {
+        text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+        <h1>Lista de tarefas</h1>
+            <input id="input-add" placeholder="Nova tarefa">
+            <button id="button-add">Adicionar</button>
+        <ul id="listatarefas">
+        </ul>
+
+
+    <script src="listatrf.js"></script>
+</body>
+</html>
